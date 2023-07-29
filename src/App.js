@@ -1,7 +1,7 @@
 import React from "react";
 import NavBar from "./NavBar/NavBar.js";
 import "./App.css";
-import Banner from "./Banner/Banner.js";
+import Banner from ".RowPost/Banner/Banner.js";
 import RowPost from "./RowPost/RowPost.js";
 import {orginals,action,Comedy,Romance,Horror} from '../src/urls.js'
 
