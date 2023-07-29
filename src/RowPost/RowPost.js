@@ -1,7 +1,7 @@
 import React,{useState,useEffect} from 'react';
 import Youtube from "react-youtube";
 import "./RowPost.css";
-import axios from '../constants/axios';
+import axios from '../constants/axios.js';
 import {imgUrl,API_KEY} from "../constants/constants.js"
 
 function RowPost(props) {
