@@ -9,6 +9,7 @@
     overflow-x: scroll;
     overflow-y: hidden;
 }
+
 .posters::-webkit-scrollbar{
     display: none;
 }
@@ -17,6 +18,19 @@
     max-height: 250px;
     margin-right: 10px;
  }  
+ @media (max-width: 500px) {
+   .poster{
+   height:170px; /* Adjust max-height for smaller screens */
+ }
+}
+
+@media (max-width: 500px) {
+   .poster:hover{
+   height:170px; /* Adjust max-height for smaller screens */
+   transform: scale(.3);
+ }
+}
+
  .smallposter{
     cursor: pointer;
     max-height: 150px;
